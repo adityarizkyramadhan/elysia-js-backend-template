@@ -12,4 +12,16 @@ To start the development server run:
 bun run dev
 ```
 
+## Generate Migration
+To generate a new migration file, use the following command:
+```bash
+bun run db:generate
+```
+
+## Run Migrations
+To run migrations, use the following command:
+```bash
+bun run db:migrate
+```
+
 Open http://localhost:3000/ with your browser to see the result.
